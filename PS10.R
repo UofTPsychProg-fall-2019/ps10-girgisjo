@@ -62,7 +62,7 @@ Q1 <- ggplot(ipip.l,aes(x=exer, y=BMI, colour=gender))+
     theme_light()+
     theme(axis.text.x = element_text(angle=65, vjust=0.6))+
     labs(title="BMI x Exercise Habits by Gender",x="Exercise", y = "BMI", colour="Gender")+
-    theme(legend.position="left", legend.box = "vertical") + labs(subtitle="Legend at Bottom")
+    theme(legend.position="left", legend.box = "vertical")
 Q1
 ggsave('figures/Q1.pdf',units='in',width=4,height=5)
 #customizations: legend location, and plot color theme 
